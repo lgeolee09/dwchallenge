@@ -1,0 +1,64 @@
+{
+  "name": "DWC26 Reservoir Intelligence",
+  "dataColors": ["#2E7D32", "#0288D1", "#D32F2F", "#ED1B2D", "#2A2F3A", "#6D4C41", "#F9A825", "#90A4AE", "#81C784", "#4FC3F7"],
+  "good": "#2E7D32",
+  "neutral": "#F9A825",
+  "bad": "#ED1B2D",
+  "maximum": "#ED1B2D",
+  "center": "#F9A825",
+  "minimum": "#2E7D32",
+  "background": "#FFFFFF",
+  "foreground": "#1E2229",
+  "tableAccent": "#ED1B2D",
+  "textClasses": {
+    "callout": { "fontSize": 24, "fontFace": "Segoe UI Semibold", "color": "#1E2229" },
+    "title": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#1E2229" },
+    "header": { "fontSize": 11, "fontFace": "Segoe UI Semibold", "color": "#1E2229" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#5F6673" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": true, "preset": "bottomRight", "transparency": 85 }],
+        "visualHeader": [{ "show": true }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#1E2229" } }, "fontSize": 12, "fontFamily": "Segoe UI Semibold" }],
+        "valueAxis": [{ "gridlineColor": { "solid": { "color": "#E3E7ED" } }, "labelColor": { "solid": { "color": "#5F6673" } } }],
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#5F6673" } } }],
+        "legend": [{ "position": "Bottom", "labelColor": { "solid": { "color": "#5F6673" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F6F9" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#F4F6F9" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#1E2229" } }, "fontSize": 24 }],
+        "categoryLabels": [{ "color": { "solid": { "color": "#5F6673" } }, "fontSize": 9 }]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "accentBar": [{ "show": true, "color": { "solid": { "color": "#ED1B2D" } }, "position": "Top", "width": 4 }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [{ "fontColor": { "solid": { "color": "#1E2229" } } }]
+      }
+    },
+    "pageNavigator": {
+      "*": {
+        "fill": [{ "show": true, "fillColor": { "solid": { "color": "#2A2F3A" } } },
+                 { "$id": "selected", "show": true, "fillColor": { "solid": { "color": "#ED1B2D" } } },
+                 { "$id": "hover", "show": true, "fillColor": { "solid": { "color": "#3A4150" } } }],
+        "text": [{ "show": true, "fontColor": { "solid": { "color": "#FFFFFF" } }, "fontSize": 11, "fontFamily": "Segoe UI Semibold" }],
+        "outline": [{ "show": false }]
+      }
+    }
+  }
+}
